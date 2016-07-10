@@ -25,27 +25,27 @@ public class FizzBuzzTest {
 
 	@Test
 	public void evaluateOne() {
-		assertEquals("1", fb.evamluate(1));
+		assertEquals("1", fb.evaluate(1));
 	}
 
 	@Test
 	public void evaluateFizz() {
-		assertEquals("Fizz", fb.evamluate(3));
+		assertEquals("Fizz", fb.evaluate(3));
 	}
 
 	@Test
 	public void evaluateBuzz() {
-		assertEquals("Buzz", fb.evamluate(5));
+		assertEquals("Buzz", fb.evaluate(5));
 	}
 
 	@Test
 	public void evaluateFizzBuzz() {
-		assertEquals("FizzBuzz", fb.evamluate(30));
+		assertEquals("FizzBuzz", fb.evaluate(30));
 	}
 
 	@Test
 	public void valuateFizzBuzz() {
-		assertEquals("FizzBuzz", fb.evamluate(15));
+		assertEquals("FizzBuzz", fb.evaluate(15));
 
 	}
 

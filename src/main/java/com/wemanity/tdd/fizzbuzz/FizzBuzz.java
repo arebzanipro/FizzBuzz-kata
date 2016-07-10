@@ -6,7 +6,7 @@ package com.wemanity.tdd.fizzbuzz;
  */
 public class FizzBuzz {
 
-	public String evamluate(int i) {
+	public String evaluate(int i) {
 		StringBuffer result = new StringBuffer();
 		if (aMultipleOfb(i, 3)) {
 			result.append("Fizz");
