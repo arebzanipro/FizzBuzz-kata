@@ -17,8 +17,8 @@ public class FizzBuzz {
         return result.toString();
     }
     
-    public String evaluate(List incomingListToFizzBuzz){
-    	Iterator iterator = incomingListToFizzBuzz.iterator();
+    public String evaluate(List<Integer> incomingListToFizzBuzz){
+    	Iterator<Integer> iterator = incomingListToFizzBuzz.iterator();
     	while(iterator.hasNext()){
     		evaluate((int) iterator.next());
     	}
